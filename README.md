@@ -79,6 +79,6 @@ Task
    | name          | String   | name of the task|
    | time          | String   | time that person need to do the task 
 ### Networking
-- [Add list of network requests by screen ]
+I plan to do this is with SwiftUI so I don't know how the code will look like. But having an online database would be count as extra, not central to the app
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
