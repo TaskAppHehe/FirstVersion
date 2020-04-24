@@ -71,9 +71,13 @@ The app allow users to add what they need to do throughout the day and the app w
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+Task
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | name          | String   | name of the task|
+   | time          | String   | time that person need to do the task 
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
