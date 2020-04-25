@@ -12,14 +12,15 @@ struct TaskView: View {
     @State var name = "Default task"
     var body: some View {
         VStack{
-            Text("Task ")
-            Text("\(name)")
+            Text(name)
+            .foregroundColor(Color("A1"))
         }
     }
 }
 
 struct TaskView_Previews: PreviewProvider {
     static var previews: some View {
-        TaskView(name : "Hah")
+        TaskView()
+            
     }
 }

@@ -9,7 +9,8 @@
 import SwiftUI
 
 struct AddTaskView: View {
-    @State private var items: [task] = (0..<5).map{task(title: "Item #\($0)")}
+    @State private var items: [task] = [task(title:"Default")]
+        //(0..<5).map{task(title: "Item #\($0)")}
     @State private var editMode = EditMode.inactive
     private static var count = 0
     @State private var t = ""
@@ -19,7 +20,7 @@ struct AddTaskView: View {
             NavigationView{
             List{
                 ForEach(items) {item in
-                    Text(item.title)
+                    TaskView(name:item.title)
                 }
             .onDelete(perform: onDelete)
                 .onMove(perform:onMove)
