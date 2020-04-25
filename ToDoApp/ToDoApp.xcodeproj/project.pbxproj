@@ -13,6 +13,9 @@
 		52A3C18A244CEF9D00067920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A3C189244CEF9D00067920 /* Assets.xcassets */; };
 		52A3C18D244CEF9D00067920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A3C18C244CEF9D00067920 /* Preview Assets.xcassets */; };
 		52A3C190244CEF9D00067920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A3C18E244CEF9D00067920 /* LaunchScreen.storyboard */; };
+		52D546EB244CFCB30021333D /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D546EA244CFCB30021333D /* AddTaskView.swift */; };
+		52D546EF244CFCE30021333D /* ListTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D546EE244CFCE30021333D /* ListTaskView.swift */; };
+		52D546F1244D033F0021333D /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D546F0244D033F0021333D /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		52A3C18C244CEF9D00067920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52A3C18F244CEF9D00067920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A3C191244CEF9D00067920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D546EA244CFCB30021333D /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		52D546EE244CFCE30021333D /* ListTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTaskView.swift; sourceTree = "<group>"; };
+		52D546F0244D033F0021333D /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		52A3C182244CEF9500067920 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				52D546EE244CFCE30021333D /* ListTaskView.swift */,
+				52D546F0244D033F0021333D /* TaskView.swift */,
+				52D546EA244CFCB30021333D /* AddTaskView.swift */,
 				52A3C183244CEF9500067920 /* AppDelegate.swift */,
 				52A3C185244CEF9500067920 /* SceneDelegate.swift */,
 				52A3C187244CEF9500067920 /* ContentView.swift */,
@@ -146,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D546EB244CFCB30021333D /* AddTaskView.swift in Sources */,
 				52A3C184244CEF9500067920 /* AppDelegate.swift in Sources */,
+				52D546EF244CFCE30021333D /* ListTaskView.swift in Sources */,
+				52D546F1244D033F0021333D /* TaskView.swift in Sources */,
 				52A3C186244CEF9500067920 /* SceneDelegate.swift in Sources */,
 				52A3C188244CEF9500067920 /* ContentView.swift in Sources */,
 			);
