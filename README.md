@@ -40,7 +40,7 @@ The app allow users to add what they need to do throughout the day and the app w
 ### 2. Screen Archetypes
 
 * [Main screen]
-    * User can view all the tasks here
+    [x] User can view all the tasks here
     * User can modified tasks importances
     * User can delete tasks
 * [Add tasks screen]
