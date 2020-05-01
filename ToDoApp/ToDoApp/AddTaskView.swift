@@ -14,10 +14,17 @@ struct AddTaskView: View {
     @State private var editMode = EditMode.inactive
     private static var count = 0
     @State private var t = ""
+    @State private var time = ""
     @State private var message = "Enter new task below"
     var body: some View {
-        VStack {
+       
             NavigationView{
+            VStack{
+            Text(message)
+                .foregroundColor(Color("A2"))
+            TextField("Enter new task", text: $t)
+                .foregroundColor(Color("A1"))
+            TextField("Enter new time", text:$time)
             List{
                 ForEach(items) {item in
                     TaskView(name:item.title)
@@ -30,9 +37,8 @@ struct AddTaskView: View {
             .navigationBarItems(leading: EditButton(),trailing:addButton)
             .environment(\.editMode,$editMode)
             }
-            Text(message)
-            TextField("Enter new task", text: $t)
-        }
+            }
+        
         
         
     }

@@ -18,7 +18,7 @@ struct ContentView: View {
                 }
             AddTaskView()
                 .tabItem{
-                    Text("Wassup")
+                    Text("Task")
                     Image(systemName: "calendar.badge.plus")
                 }
             }
