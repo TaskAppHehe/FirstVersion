@@ -18,7 +18,7 @@ struct ContentView: View {
                 }
             AddTaskView()
                 .tabItem{
-                    Text("Wassup")
+                    Text("Task")
                     Image(systemName: "calendar.badge.plus")
                 }
             }
@@ -28,6 +28,11 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        Group{
         ContentView()
+        ContentView()
+            .colorScheme(.dark)
+            .background(Color.black)
+        }
     }
 }

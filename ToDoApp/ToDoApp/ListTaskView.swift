@@ -9,18 +9,29 @@
 import SwiftUI
 
 struct ListTaskView: View {
-    @State var count = UserDefaults.standard.integer(forKey: "count")
-    @State var taskarr = UserDefaults.standard.array(forKey: "tasks")
-    @State var size = UserDefaults.standard.integer(forKey: "size")
-    var array : [String] = ["We","ha"]
+    /*
+     Text("\(count)")
+     Button("Hello"){
+         self.count+=1
+     }
+     */
+    
     var body: some View {
         VStack{
             
-            Text("\(count)")
-            Button("Hello"){
-                self.count+=1
+            NavigationView{
+            VStack{
+              Text("What's you up to?")
+                .font(.largeTitle)
+                .foregroundColor(Color("A1"))
+                
+              Text("Click the other tab to add task")
+                .font(.title)
+              Spacer()
             }
+            .navigationBarTitle("Hello User!")
             
+            }
         }
     }
 }
@@ -28,5 +39,6 @@ struct ListTaskView: View {
 struct ListTaskView_Previews: PreviewProvider {
     static var previews: some View {
         ListTaskView()
+        .previewDevice("iPhone X")
     }
 }
