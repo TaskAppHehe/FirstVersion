@@ -40,13 +40,14 @@ The app allow users to add what they need to do throughout the day and the app w
 ### 2. Screen Archetypes
 
 * [Main screen]
-   [x] User can view all the tasks here
+    * User can view all the tasks here (achieved)
     * User can modified tasks importances
-    * User can delete tasks
+    - [x] User can delete tasks 
 * [Add tasks screen]
     * User can add tasks and decide its importance
 * [Modified tasks screen]
     * User can modified tasks once it's added
+    * User can delete task (achieved)
 
 ### 3. Navigation
 
@@ -57,7 +58,7 @@ The app allow users to add what they need to do throughout the day and the app w
 **Flow Navigation** (Screen to Screen)
 
 * [Main screen]
-   => Add tasks
+   => Add tasks 
    => Change color/ theme
 * [Add tasks]
    => Main screen
