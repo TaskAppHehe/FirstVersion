@@ -48,6 +48,9 @@ The app allow users to add what they need to do throughout the day and the app w
 * [Modified tasks screen]
     - [ ] User can modified tasks once it's added
     - [x] User can delete task 
+* [Miscellaneous]
+    - [x] Support icons for every devices
+    - [x] Support changing colors for light and dark mode
 
 ### 3. Navigation
 
