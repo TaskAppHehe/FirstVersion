@@ -83,6 +83,7 @@ Digital Wireframes & Mockups
 ### Models 
 
  |Data |String| String|
+ --|--|--|
  |TaskApp|Title|Time|
 Task App has a string title and time string 
 ### Networking
