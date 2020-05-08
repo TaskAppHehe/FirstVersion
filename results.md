@@ -8,4 +8,4 @@ Basic functionality has been achieved like user interface and task view of addin
 Other functionality is automatically changing color for light and dark mode and support icons for all devices
 <img src = "https://i.imgur.com/iPVf1mJ.png" width =200 height=300>
 <img src = "https://i.imgur.com/9VDDJz0.png" width =200 height=300>
-<img src = "hhttps://i.imgur.com/zLl5avn.png" width =200 height=300>
+<img src = "https://i.imgur.com/zLl5avn.png" width =200 height=300>
