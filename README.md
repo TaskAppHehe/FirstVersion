@@ -79,10 +79,11 @@ Digital Wireframes & Mockups
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
+
+### Models 
+
+ |Data |String| String|
+ |TaskApp|Title|Time|
+Task App has a string title and time string 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- This app don't use networking
