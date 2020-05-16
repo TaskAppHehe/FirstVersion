@@ -9,3 +9,6 @@ Other functionality is automatically changing color for light and dark mode and 
 <img src = "https://i.imgur.com/iPVf1mJ.png" width =200 height=300>
 <img src = "https://i.imgur.com/zLl5avn.png" width =200 height=300>
 <img src = "https://i.imgur.com/9VDDJz0.png" width =200 height=300>
+
+Final result
+<a href="https://www.loom.com/share/d0f3ba6050824482b53785b3f65ff950"> <p>16 May, 2020 - Loom Recording - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/d0f3ba6050824482b53785b3f65ff950-with-play.gif"> </a>
